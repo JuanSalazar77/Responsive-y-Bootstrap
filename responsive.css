@@ -1,0 +1,94 @@
+body{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+.border-principal{
+    border: 2px solid black;
+}
+.border{
+    border: 1px solid black;
+}
+.backgraound-color{
+    background-color: orange;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.imges{
+    width: 30%;
+    height: 30%;
+}
+@media screen and (max-width: 300px) {
+    body{
+        background-color: yellow;
+    }
+    main{margin-top: 10px;}
+    .logo{width: 100%;}
+    h1{width: 100%;}
+    .nav1{width: 100%;}
+    .nav2{width: 100%;}
+    .nav3{display: none;}
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+    header{height: 10vh; display: flex;}
+    main{height: 80vh; margin-top: 10px; display: flex;}
+    section{margin: 10px 20px;}
+    footer{height: 10vh; display: flex;}
+    .logo{width: 50%;}
+    h1{width: 100%;}
+    .nav1{width: 100%;}
+    .nav2{width: 100%;}
+    .nav3{display: none;}
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body{
+        background-color: red;
+    }
+    header{height: 10vh; display: flex;}
+    main{height: 80vh; margin-top: 10px; display: flex;}
+    section{margin: 10px 20px;}
+    footer{height: 10vh; display: flex;}
+    .logo{width: 30%;}
+    h1{width: 40%;}
+    .nav1{width: 30%;}
+    .nav2{width: 50%;}
+    .nav3{width: 50%;}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    body{
+        background-color: blueviolet;
+    }
+    header{height: 10vh; display: flex;}
+    main{height: 80vh; margin-top: 10px; display: flex;}
+    section{margin: 10px 20px;}
+    footer{height: 10vh; display: flex;}
+    .logo{width: 30%;}
+    h1{width: 30%;}
+    .nav1{width: 30%;}
+    .nav2{width: 10%;}
+    .nav3{width: 100%;}
+}
+
+@media screen and (min-width: 1201px) {
+    body{
+        background-color: green;
+    }
+    header{height: 20vh; display: flex;}
+    main{height: 70vh; margin-top: 10px; display: flex;}
+    section{margin: 10px 20px;}
+    footer{height: 10vh;}
+    .logo{width: 10%;}
+    h1{width: 20%;}
+    .nav1{width: 40%;}
+    .nav2{width: 20%;}
+    .nav3{width: 10%;}
+}
